@@ -1,0 +1,29 @@
+//ARREGLO STRINGS		
+/*char nombres [4][201]
+strcpy(nombres[0],"texto") //Se usa la libreria #include<string.h>
+printf("%s\n", nombres[i])
+fgets(Variable, sizef(Variable),stdin);
+puts(variable)
+cin<<
+cout>>*/
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+int nombre
+
+int main(){
+	char nombres[5][201];
+	for(int i=0; i<5; i++){
+	
+	printf("Deme un nombre:\n");
+	fgets(nombres[i],sizef(nombre[i]),stdin)
+	
+}
+for(i=0:i<5;i++){
+	printf("%s\n",nombres[i]);
+	
+}
+system("PAUSE");
+return 0;
+}
